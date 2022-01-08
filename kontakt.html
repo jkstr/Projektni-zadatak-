@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="stil.css">
+
+</head>
+<style>
+  body {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+  background-color: #6ba8f746;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4569a0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #af3737;
+}
+
+
+.forma {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+}
+
+
+.row {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+.mapa {
+  margin-top: 6px;
+  resize: vertical;
+  margin: auto;
+  margin-bottom: 60px;
+  width: 30%;
+  padding: 10px;
+  color: white;
+}
+
+</style>
+<body>
+    <!----Zaglavlje----->
+    <section id="nav">
+        
+        <ul>
+            <li><a href="index.html">Glavna stranica</a></li>
+            <li><a href="novosti.html">Novosti</a></li>
+            <li><a href="onama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+        </ul>
+    </section>
+
+
+
+
+    <!----Kontakt----->
+    
+    <div class="forma">
+      <div style="text-align:center">
+        <h2>Pošaljite upit</h2>
+      </div>
+      <div class="row">
+        <div class="column">
+            <label for="fname">Ime</label>
+            <input type="text" id="fname" name="firstname" placeholder="Vaše ime...">
+            <label for="lname">Prezime</label>
+            <input type="text" id="lname" name="lastname" placeholder="Vaše prezime...">
+            <label for="country">E-mail</label>
+            <input type="text" id="lname" name="lastname" placeholder="Vaš e-mail...">
+            <label for="subject">Sadržaj</label>
+            <textarea id="subject" name="subject" placeholder="Napiši nam nešto.." style="height:170px"></textarea>
+            <input type="submit" value="Pošalji">
+        </div>
+      </div>
+    </div>
+
+    <div class="mapa">
+    <center>
+    <p>Naša lokacija</p>
+    </center>
+    </div>
+    <center>
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.719310510106!2d-0.19314518402322362!3d51.48166632040501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f864b976f3d%3A0x48aa38781ea565f8!2sStamford%20Bridge!5e0!3m2!1sen!2shr!4v1641480211905!5m2!1sen!2shr" width="543" height="250" style="border:0; margin-top: -70px; margin-bottom: 60px;" allowfullscreen="" loading="lazy" ></iframe></p>
+    </center>
+
+    <!---Footer--->
+    <div class="footer" style="float: center;">
+      <p class="column side"><a href="https://github.com/"><img src="github.png" width="30" height="30" style="float: left;"></a></p>
+      <p class="column middle" style="text-align: center; margin-left: -20px;">Copyright Ⓒ Martin Šalek</p>
+  </div>
+
+</body>
+</html>
