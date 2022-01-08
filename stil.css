@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-image: url(background.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #6ba8f746;
+
+}
+
+
+/*--------------------Poveznice--------------------*/
+
+
+#nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+#nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+#nav li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: #069;
+}
+
+#nav li a:hover {
+    color: #c00;
+    text-align: center;
+    background-color: #fff;
+}
+
+#content {
+    padding: 0 50px 50px;
+    width: 1000px;
+    height: 800px;
+    background-color: #FFF;
+}
+
+/*--------------------Footer--------------------*/ 
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #069;
+ }
+
+/*--------------------Kolumne--------------------*/ 
+/* Left and right column */
+.column.side {
+    width: 100%;
+    align-content: left;
+    margin-left: 20px;
+  }
+
+  /* Middle column */
+.column.middle {
+    width: 100%;
+    float: center;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+
+
+/*--------------------Banner--------------------*/ 
+#sec1 {
+    width: 1903px;
+    height: 200px;
+    overflow: hidden;
+    background-size: 100%;
+    top: 10px;
+    left: 1600px;
+    position: center;
+}
+
+
+@media (max-width: 1080px) {
+    #sec1 {
+        width: 100%;
+        position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }}
+
+@media only screen and (min-width: 960px) {
+     #sec1 {
+      background-image: url('banner2.png');
+      
+       }
+}
