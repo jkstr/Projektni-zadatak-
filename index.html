@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Glavna stranica</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<style>
+
+    body {
+        font-weight: bolder;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: x-large;
+    }
+
+    .leftcolumn {   
+    float: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+
+    /*--------------------Rezultat prosle utakmice--------------------*/
+    .boxed {
+    float: center;
+    height: 200px;
+    color: #069;
+    background-color: rgba(255, 255, 255, 0.856);
+    margin-bottom: 15px;
+    column-count: 3;
+    }
+
+    .boxed div {
+    flex: 1;
+    }
+
+
+</style>
+<body>
+
+    <!----Banner----->
+    
+    <section id="sec1">
+            <img src="Banner.png" id="banner"  width: 1920px; style="align-content: center;">
+    </section>
+
+    <!----Zaglavlje----->
+
+    <section id="nav">
+        <ul>
+            <li><a href="index.html">Glavna stranica</a></li>
+            <li><a href="novosti.html">Novosti</a></li>
+            <li><a href="onama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+        </ul>
+    </section>
+
+    <!----Text----->
+
+    <div class="row" style="margin-bottom: 60px;">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Ludnica od derbija: Četiri gola i atomski nogomet koji oduzima dah, remi Chelseaja i Liverpoola</h2>
+            <figure>
+            <a href="glavna slika.jpg">
+            <img src="glavna slika.jpg" width="500" height="300" style="border: 5px solid black;"/>
+            </a>
+            <figcaption>Fotografija: TOBY MELVILLE</figcaption>
+            </figure>
+            <p style="color: white;">Potezi, akcije, sjajni golovi među kojima je prednjačio onaj Matea Kovačića... Derbi na Stamford Bridgeu bio je za prste polizati, no najveći dobitnik je Manchester City, kojem najviše odgovara remi</p>
+            <p style="color: white;">U derbiju 21. kola engleskog nogometnog prvenstva Chelsea i Liverpool su na Stamford Bridgeu odigrali 2-2, a za domaći sastav fenomenalan pogodak postigao je hrvatski reprezentativac Mateo Kovačić.</p>
+        </div>
+
+    <!----Zadnja utakmica----->
+
+    <div class="boxed">
+        <img src="logo1.png" alt="" width="150" height="150" style="margin-top: 25px;">
+        <h2>Zadnja utakmica</h2>
+        <h1>2-2</h1>
+        <img src="logo2.png" alt="" width="150" height="150" style="margin-top: 25px;">
+    </div>
+
+    <!---Footer--->
+    <div class="footer" style="float: center;">
+        <p class="column side"><a href="https://github.com/"><img src="github.png" width="30" height="30" style="float: left;"></a></p>
+        <p class="column middle" style="text-align: center; margin-left: -20px;">Copyright Ⓒ Martin Šalek</p>
+    </div>
+
+</body>
+</html>
