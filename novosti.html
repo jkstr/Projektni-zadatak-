@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Novosti</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<style>
+
+
+    body {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    }
+
+    /*--------------------Rezultat prosle utakmice--------------------*/
+    
+    .boxed {
+    float: center;
+    height: 200px;
+    color: black;
+    border-bottom: 3px solid #069;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    column-count: 2;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+
+    .boxed div {
+    flex: 1;
+    }
+
+    .container {
+    height: 200px;
+    position: relative;
+    }
+
+    .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+
+</style>
+<body>
+    <!----Zaglavlje----->
+    <section id="nav">
+        
+        <ul>
+            <li><a href="index.html">Glavna stranica</a></li>
+            <li><a href="novosti.html">Novosti</a></li>
+            <li><a href="onama.html">O nama</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+        </ul>
+    </section>
+
+    <!----Vijest1----->
+
+    <div class="boxed">
+        <a href="vijest1.html">
+        <img src="vijest1.jpg" alt="" width="310" height="175" style="margin-top: 25px;">
+        </a>    
+        <div class="container">
+        <div class="vertical-center">
+        <h1>Pala pomirba Lukakua i Tuchela</h1>
+        </div>
+        </div>
+    </div>
+
+    <!----Vijest2----->
+
+    <div class="boxed">
+        <a href="vijest2.html">
+        <img src="vijest2.jpg" alt="" width="310" height="175" style="margin-top: 25px;">
+        </a>
+        <div class="container">
+        <div class="vertical-center">
+        <h1>Kovačić otkrio kako ga Tuchel hvali...</h1>
+        </div>
+        </div>
+    </div>
+
+    <!----Vijest3----->
+
+    <div class="boxed">
+        <a href="vijest3.html">
+        <img src="vijest3.jpg" alt="" width="310" height="175" style="margin-top: 25px;">
+        </a>
+        <div class="container">
+        <div class="vertical-center">
+        <h1>John Terry se vraća u Chelsea</h1>
+        </div>
+        </div>
+    </div>
+
+
+
+    <!---Footer--->
+    <div class="footer" style="float: center;">
+        <p class="column side"><a href="https://github.com/"><img src="github.png" width="30" height="30" style="float: left;"></a></p>
+        <p class="column middle" style="text-align: center; margin-left: -20px;">Copyright Ⓒ Martin Šalek</p>
+    </div>
+
+    
+</body>
+</html>
